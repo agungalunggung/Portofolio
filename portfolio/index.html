@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Portfolio</title>
+  </head>
+
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark p-md-3 fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Fresh Graduate</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="./img/AgungHimawan.jpg" alt="AgungHimawan" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Agung Himawan</h1>
+      <p class="lead">Junior CopyWriting</p>
+    </section>
+    <!-- Akhir Jumbotron -->
+
+    <!--ABOUT-->
+    <section id="about">
+      <div class="container pb-3">
+        <div class="row text-center">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-8">
+            <p>I am the type of worker who can complete work according to the given deadlines. I can also adapt quickly to a new environment with new people. I am a worker who can work well with the team.</p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- AKHIR ABOUT-->
+
+    <!-- GALLERY -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2> INFOGRAFIK | FOTOGRAFI</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <a href="#portofolio1"><img src="img/full/Mercury.png" class="card-img-top" alt="Planet1" /></a>
+              <div class="overlay" id="portofolio1">
+                <a href="#gallery"class="exit">close</a>
+                <div class="navbarkanan">
+                    <a href="#planet-2"><img src="../img/right.png" alt=""></a>
+                </div>
+                <img src="../img/full/Mercury.png" alt="planet-1">
+            </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <a href=""><img src="img/full/Venus.png" class="card-img-top" alt="Planet2" /></a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <a href=""><img src="img/full/Earth.png" class="card-img-top" alt="Planet3" /></a>             
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <a href=""><img src="img/full/Mars.png" class="card-img-top" alt="Planet4" /></a>
+            </div></a>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <a href=""><img src="img/full/Jupiter.png" class="card-img-top" alt="Planet5" /></a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <a href=""><img src="img/full/saturn.png" class="card-img-top" alt="Planet6" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- AKHIR GALLERY -->
+
+    <!-- Contact -->
+    <!-- Akhir Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2>Contact Me</h2>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" aria-describedby="name"/>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="email" />
+                </div>
+                <div class="mb-3">
+                    <label for="pesan" class="form-label">Pesan</label>
+                    <textarea class="form-control" id="pesan" rows="3"></textarea>
+                  </div>
+                <button type="submit" class="btn btn-dark">Kirim</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#212529" fill-opacity="1" d="M0,128L0,192L48,192L48,224L96,224L96,192L144,192L144,160L192,160L192,96L240,96L240,32L288,32L288,128L336,128L336,160L384,160L384,32L432,32L432,224L480,224L480,128L528,128L528,288L576,288L576,160L624,160L624,288L672,288L672,320L720,320L720,96L768,96L768,0L816,0L816,64L864,64L864,256L912,256L912,160L960,160L960,128L1008,128L1008,96L1056,96L1056,0L1104,0L1104,192L1152,192L1152,64L1200,64L1200,128L1248,128L1248,288L1296,288L1296,288L1344,288L1344,32L1392,32L1392,288L1440,288L1440,320L1392,320L1392,320L1344,320L1344,320L1296,320L1296,320L1248,320L1248,320L1200,320L1200,320L1152,320L1152,320L1104,320L1104,320L1056,320L1056,320L1008,320L1008,320L960,320L960,320L912,320L912,320L864,320L864,320L816,320L816,320L768,320L768,320L720,320L720,320L672,320L672,320L624,320L624,320L576,320L576,320L528,320L528,320L480,320L480,320L432,320L432,320L384,320L384,320L336,320L336,320L288,320L288,320L240,320L240,320L192,320L192,320L144,320L144,320L96,320L96,320L48,320L48,320L0,320L0,320Z"></path></svg>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center pb-3">
+        <p>Created With <i class="bi bi-heart-fill text-danger"> </i> by <a href="https://google.com" class="text-white fw-bold text-decoration-none">ME</a></p>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+
+
+    <script>
+      var nav = document.querySelector('nav');
+
+      window.addEventListener('scroll', function(){
+        if (window.pageYOffset > 100) {
+          nav.classList.add('bg-dark' , 'shadow');
+        }else{
+          nav.classList.remove('bg-dark' , 'shadow')
+        }
+      })
+    </script>
+  </body>
+</html>
